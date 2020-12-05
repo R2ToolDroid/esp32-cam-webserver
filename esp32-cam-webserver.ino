@@ -38,7 +38,7 @@
     #define WIFI_AP_ENABLE
     #define CAMERA_MODEL_AI_THINKER
     struct station { const char ssid[65]; const char password[65]; const bool dhcp;} 
-    stationList[] = {{"ESP32-CAM-CONNECT","InsecurePassword", true}};
+    stationList[] = {{"ESP32-R2-CAM-CONNECT","0000", true}};
 #endif
 
 // Upstream version string
